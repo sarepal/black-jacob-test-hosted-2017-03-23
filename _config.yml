@@ -1,29 +1,30 @@
+---
 author:
-  email: null
+  email: 
   name: An Author
-  twitter: null
-  url: null
-baseurl: /black-jacob-test-hosted-2017-03-23
+  twitter: 
+  url: 
+baseurl: "/black-jacob-test-hosted-2017-03-23"
 collections:
   annotations:
     output: true
-    permalink: /annotations/:path/
+    permalink: "/annotations/:path/"
   volume_pages:
     output: true
-    permalink: /pages/:path/
+    permalink: "/pages/:path/"
 defaults:
 - scope:
     path: ''
     type: volume_pages
   values:
+    layout: volume_page
+    short_label: p.
     deep_zoom: true
     extra_js:
     - volume-page.js
     - hammer.min.js
     - deepzoom.js
     - openseadragon.min.js
-    layout: volume_page
-    short_label: p.
 - scope:
     path: ''
     type: annotations
@@ -35,33 +36,33 @@ gems:
 homepage_image: https://readux.library.emory.edu/books/emory:b5h9g/pages/emory:gnfvk/single-page/
 image_size:
   page:
-    height: 1000
     width: 719
-  small-thumbnail:
-    height: 100
-    width: 71
+    height: 1000
   thumbnail:
-    height: 300
     width: 215
+    height: 300
+  small-thumbnail:
+    width: 71
+    height: 100
 permalink: pretty
 publication_info:
-  author: Eddy, A. D. (Ansel Doane), 1798-1875.
+  title: '"Black Jacob," a monument of grace  the life of Jacob Hodges, an African
+    Negro, who died in Canandaigua, N.Y., February 1842 , an annotated digital edition'
   date: '2017'
+  author: Eddy, A. D. (Ansel Doane), 1798-1875.
   editors:
   - Sara Palmer
   tei_xml: tei.xml
-  title: '"Black Jacob," a monument of grace  the life of Jacob Hodges, an African
-    Negro, who died in Canandaigua, N.Y., February 1842 , an annotated digital edition'
 show_annotation_author: true
 source_info:
-  author: Eddy, A. D. (Ansel Doane), 1798-1875.
-  date: '2011'
-  pdf_url: https://readux.library.emory.edu/books/emory:b5h9g/pdf/#page=2
   title: '"Black Jacob," a monument of grace  the life of Jacob Hodges, an African
     Negro, who died in Canandaigua, N.Y., February 1842 '
+  author: Eddy, A. D. (Ansel Doane), 1798-1875.
+  date: '2011'
   url: https://readux.library.emory.edu/books/emory:b5h9g/
+  pdf_url: https://readux.library.emory.edu/books/emory:b5h9g/pdf/#page=2
   via_readux: true
-tagline: ', an annotated digital edition'
+tagline: ", an annotated digital edition"
 title: '"Black Jacob," a monument of grace  the life of Jacob Hodges, an African Negro,
   who died in Canandaigua, N.Y., February 1842 '
 url: https://sarepal.github.io
